@@ -6,12 +6,12 @@ export default function ContactUs()
     return(
         <div className="w-full flex flex-col items-center">
             <PocketCrewContainer>
-                <div className="w-full flex justify-between pt-[160px] pb-[80px] gap-[128px]">
-                    <div className="max-w-[50%] flex flex-col gap-[16px]">
+                <div className="w-full flex flex-col lg:flex-row justify-between pt-[40px] lg:pt-[160px] pb-[80px] gap-[64px] lg:gap-[128px] px-4">
+                    <div className="lg:max-w-[50%] flex flex-col gap-[16px]">
                         <h1 className="text-[32px] font-heading text-white leading-[30px]">Contact Us</h1>
                         <p className="text-[18px] text-white leading-5">Tell us about your business and the work you'd like to automate. We'll identify opportunities, answer your questions, and show you what's possible.</p>
-                        <div className="flex gap-[8px]">
-                            <a href="mailto:hello@pocketcrew.studio" className="flex bg-white text-[#1e1e1e] justify-between items-center gap-[8px] px-[16px] py-[8px]"><Mail />hello@pocketcrew.studio</a>
+                        <div className="flex gap-[8px] flex-col sm:flex-row">
+                            <a href="mailto:hello@pocketcrew.studio" className="flex bg-white text-[#1e1e1e] justify-center md:justify-between items-center gap-[8px] px-[16px] py-[8px]"><Mail />hello@pocketcrew.studio</a>
                             <div className="bg-green-600 hover:bg-green-700 inline-flex text-white px-[16px] py-[8px] justify-center items-center gap-[8px]">
                                 <Image
                                 src="/whatsapp.png"

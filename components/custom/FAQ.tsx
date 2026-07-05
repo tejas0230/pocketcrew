@@ -12,8 +12,8 @@ export default function FAQ()
     return(
         <div className="w-full flex flex-col items-center">
             <PocketCrewContainer>
-                <div className="w-full flex flex-col items-center py-[80px]">
-                    <h1 className="font-heading text-[40px] text-white mb-[12px] ">Frequently Asked Questions.</h1>
+                <div className="w-full flex flex-col items-center py-[40px] sm:py-[80px] px-2">
+                    <h1 className="font-heading text-[40px] text-white mb-[12px] text-center leading-12">Frequently Asked Questions.</h1>
                     <p className="text-[16px] text-[#DEDEDE] max-w-[480px] text-center leading-4 mb-[32px]">Everything you need to know before getting started.</p>
                     <Accordion className="max-w-[450px]">
                         <AccordionItem>

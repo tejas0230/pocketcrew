@@ -14,9 +14,9 @@ export default function Home() {
         <Hero />
         <TheSolution />
         <SeeInAction />
-        {/* <CTA /> */}
-        {/* <FAQ /> */}
-        {/* <Footer /> */}
+        <CTA />
+        <FAQ />
+        <Footer />
       </>
   );
 }

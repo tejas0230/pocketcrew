@@ -14,7 +14,7 @@ export default function BookAMeeting()
     return(
         <div className="w-full flex flex-col items-center">
             <PocketCrewContainer>
-                <div className="w-full flex flex-col items-center py-[80px]">
+                <div className="w-full flex flex-col items-center py-[40px] sm:py-[80px] px-4">
                 <h1 className="font-heading text-[32px] text-white mb-[8px]">Book A Meeting</h1>
                 <p className="text-[18px] text-white/70 mb-[16px] max-w-[500px] text-center leading-4">Book a short 30 minute discovery call to discuss your business processes and see what all thing can we automate.</p>
                 <Cal namespace="30min"
