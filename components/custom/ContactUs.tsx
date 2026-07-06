@@ -6,7 +6,7 @@ export default function ContactUs()
     return(
         <div className="w-full flex flex-col items-center">
             <PocketCrewContainer>
-                <div className="w-full flex flex-col lg:flex-row justify-between pt-[40px] lg:pt-[160px] pb-[80px] gap-[64px] lg:gap-[128px] px-4">
+                <div className="w-full flex flex-col lg:flex-row justify-between pt-[40px] lg:pt-[160px] pb-[80px] gap-[64px] lg:gap-[128px] px-6 ">
                     <div className="lg:max-w-[50%] flex flex-col gap-[16px]">
                         <h1 className="text-[32px] font-heading text-white leading-[30px]">Contact Us</h1>
                         <p className="text-[18px] text-white leading-5">Tell us about your business and the work you'd like to automate. We'll identify opportunities, answer your questions, and show you what's possible.</p>

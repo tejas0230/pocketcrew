@@ -43,7 +43,7 @@ export default function Hero()
     return(
         <div className="w-full flex flex-col items-center">
             <PocketCrewContainer>
-                <div className="w-full flex flex-col items-center pt-[40px] pb-[40px] md:pt-[80px] lg:pt-[160px] lg:pb-[80px] px-2">
+                <div className="w-full flex flex-col items-center pt-[40px] pb-[40px] md:pt-[80px] lg:pt-[160px] lg:pb-[80px] px-6 ">
                     <div className="text-[14px] text-white px-[16px] py-[8px] border border-[1px] border-white rounded-3xl mb-[24px]">AI Automation Agency</div>
                     <h1 className="max-w-[320px] sm:max-w-[706px] text-[32px] md:text-[44px] lg:text-[64px] font-heading text-[#f5f5f5] text-center leading-8 md:leading-12 lg:leading-16 mb-[20px]">We build you an AI Crew that works 24/7.</h1>
                     <p className="text-[16px] sm:text-[20px] text-[#dedede] text-center  max-w-[320px] sm:max-w-[568px] leading-4 sm:leading-6 mb-[40px]">PocketCrew builds custom AI automation that handle the busywork eating your time - so you cam run your business, not babysit it.</p>

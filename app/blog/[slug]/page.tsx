@@ -46,11 +46,11 @@ export default async function BlogPost({
         <>
             <Navbar />
                 <PocketCrewContainer>
-                    <article className="w-full px-4 py-10 sm:py-16">
+                    <article className="w-full px-6  py-10 sm:py-16">
                         <p className="text-sm text-zinc-400 text-center">
                             {post.date} · {post.author}
                         </p>
-                        <h1 className="w-full text-[32px] font-heading text-white text-center mb-4">{post.title}</h1>
+                        <h1 className="w-full text-[32px] font-heading text-white text-center mb-4 leading-10">{post.title}</h1>
                         <MDXRemote
                             source={post.content}
                             components={mdxComponents}

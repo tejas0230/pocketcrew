@@ -5,7 +5,7 @@ export default function Footer(){
     return(
         <div className="w-full flex flex-col items-center bg-white">
             <PocketCrewContainer>
-                <div className="w-full flex flex-col items-center py-[40px] gap-[12px] px-4">
+                <div className="w-full flex flex-col items-center py-[40px] gap-[12px] px-6 ">
                     <div className="w-full flex flex-col sm:flex-row justify-between gap-[20px]">
                         <div>
                             <div className="text-[20px] font-light">Pocket<span className="font-black">Crew</span></div>
@@ -16,16 +16,16 @@ export default function Footer(){
                             <li className="text-left sm:text-right"><Link href="/">Home</Link></li>
                             {/* <li className="text-left sm:text-right"><Link href="#">Our Work</Link></li> */}
                             {/* <li className="text-left sm:text-right"><Link href="#">Case Studies</Link></li> */}
-                            <li className="text-left sm:text-right"><Link href="blog">Blog</Link></li>
-                            <li className="text-left sm:text-right"><Link href="contact-us">Contact</Link></li>
+                            <li className="text-left sm:text-right"><Link href="/blog">Blog</Link></li>
+                            <li className="text-left sm:text-right"><Link href="/contact-us">Contact</Link></li>
                         </ul>
                     </div>
                     <div className="bg-[#A3A3A3] h-[1px] w-full"></div>
                     <div className="text-[14px] font-medium flex flex-col sm:flex-row gap-[12px] justify-between w-full">
                         <div>© 2026 PocketCrew. All Rights Reserved.</div>
                         <ul className="flex gap-[38px] justify-between">
-                            <li><Link href="privacy-policy">Privacy Policy</Link></li>
-                            <li><Link href="terms-of-service">Terms of Service</Link></li>
+                            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                            <li><Link href="/terms-of-service">Terms of Service</Link></li>
                             {/* <li><Link href="#">Cookies Policy</Link></li> */}
                         </ul>
                     </div>

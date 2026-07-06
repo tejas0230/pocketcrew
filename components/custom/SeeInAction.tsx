@@ -5,7 +5,7 @@ export default function SeeInAction()
     return(
         <div className="w-full flex flex-col items-center">
             <PocketCrewContainer>
-                <div className="w-full flex flex-col items-center py-[40px] sm:py-[80px] px-2">
+                <div className="w-full flex flex-col items-center py-[40px] sm:py-[80px] px-6 ">
                     <div className="text-[14px] text-white px-[16px] py-[8px] border border-[1px] border-white rounded-3xl mb-[20px]">See In Action</div>
                     <h1 className="font-heading text-[40px] text-white mb-[12px] text-center leading-10">Real Workflows. Real Results.</h1>
                     <p className="text-[16px] text-[#dedede] max-w-[480px] text-center leading-4 mb-[32px] sm:mb-[64px]">See how PocketCrew automates your entire lead-to-meeting process so nothing falls through the cracks.</p>

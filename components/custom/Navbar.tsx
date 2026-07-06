@@ -22,13 +22,13 @@ export default function Navbar()
     return(
         <div className="w-full flex flex-col items-center">
             <PocketCrewContainer>
-                <div className="w-full flex justify-between py-[12px] items-center px-[12px]">
+                <div className="w-full flex justify-between py-[12px] items-center px-6">
                     <a href="/" className="text-[20px] text-white font-light">Pocket<span className="font-black">Crew</span></a>
                     <ul className="sm:flex gap-[32px] text-[14px] text-white font-light hidden ">
                         <Link href="/">Home</Link>
                         {/* <Link href="#">About Us</Link> */}
                         <Link href="blog">Blog</Link>
-                        <Link href="contact-us">Contact</Link>
+                        <Link href="/contact-us">Contact</Link>
                     </ul>
                     <Button variant={"default"} className="leading-[1px] hidden sm:flex" onClick={handleBookCall}>Book A Call <ArrowRight/></Button>
                     <div className="text-white block sm:hidden" onClick={handleOpenMobileNav}><TextAlignJustify/></div>
@@ -39,7 +39,7 @@ export default function Navbar()
                             <li><Link href="/">Home</Link></li>
                             {/* <li><Link href="#">About Us</Link></li> */}
                             <li><Link href="blog">Blog</Link></li>
-                            <li><Link href="contact-us">Contact</Link></li>
+                            <li><Link href="/contact-us">Contact</Link></li>
                             <li>
                                 <Button variant={"default"} className="leading-[1px] flex" onClick={handleBookCall}>Book A Call <ArrowRight/></Button>
                             </li>

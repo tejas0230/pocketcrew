@@ -15,7 +15,7 @@ export default function CTA()
     return(
         <div className="w-full flex flex-col items-center">
             <PocketCrewContainer>
-                <div className="w-full flex flex-col items-center py-[40px] bg-white p-2">
+                <div className="w-full flex flex-col items-center py-[40px] bg-white px-6 ">
                     <div className="text-[14px] text-white px-[16px] py-[8px] rounded-3xl mb-[16px] bg-[#1c1c1c]">See In Action</div>
                     <h1 className="font-heading text-[40px] text-[#1d1d1d] mb-[12px] text-center leading-10">Let’s build your AI Crew.</h1>
                     <p className="text-[16px] text-[#3a3a3a] max-w-[480px] text-center leading-4 mb-[32px]">Book a free 30-minute discovery call and let’s uncover how automation can transform your business.</p>

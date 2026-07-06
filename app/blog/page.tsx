@@ -18,8 +18,8 @@ export default function BlogPage() {
         <>
             <Navbar />
             <PocketCrewContainer>
-                <div className="w-full px-4 py-10 sm:py-16">
-                    <h1 className="font-heading text-[40px] text-white mb-4 text-center">
+                <div className="w-full px-6 py-4 md:py-10 sm:py-16">
+                    <h1 className="font-heading text-[32px] md:text-[40px] text-white mb-4 text-center">
                         Blogs
                     </h1>   
                     <ul className="space-y-8 grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 w-full justify-start gap-[32px]">
@@ -32,7 +32,7 @@ export default function BlogPage() {
                                     {post.cover &&(
                                         <Image src={post.cover} alt="" width={1000} height={1000} className="w-full rounded-xl"></Image>
                                     )}
-                                    <div className="w-full p-2">
+                                    <div className="w-full ">
                                         <p className="text-sm text-white/80 mb-1">
                                             {post.date} · {post.author}
                                         </p>
