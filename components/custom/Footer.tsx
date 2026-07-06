@@ -16,7 +16,7 @@ export default function Footer(){
                             <li className="text-left sm:text-right"><Link href="/">Home</Link></li>
                             {/* <li className="text-left sm:text-right"><Link href="#">Our Work</Link></li> */}
                             {/* <li className="text-left sm:text-right"><Link href="#">Case Studies</Link></li> */}
-                            <li className="text-left sm:text-right"><Link href="#">Blog</Link></li>
+                            <li className="text-left sm:text-right"><Link href="blog">Blog</Link></li>
                             <li className="text-left sm:text-right"><Link href="contact-us">Contact</Link></li>
                         </ul>
                     </div>
@@ -24,8 +24,8 @@ export default function Footer(){
                     <div className="text-[14px] font-medium flex flex-col sm:flex-row gap-[12px] justify-between w-full">
                         <div>© 2026 PocketCrew. All Rights Reserved.</div>
                         <ul className="flex gap-[38px] justify-between">
-                            <li><Link href="#">Privacy Policy</Link></li>
-                            <li><Link href="#">Terms of Service</Link></li>
+                            <li><Link href="privacy-policy">Privacy Policy</Link></li>
+                            <li><Link href="terms-of-service">Terms of Service</Link></li>
                             {/* <li><Link href="#">Cookies Policy</Link></li> */}
                         </ul>
                     </div>

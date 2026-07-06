@@ -27,7 +27,7 @@ export default function Navbar()
                     <ul className="sm:flex gap-[32px] text-[14px] text-white font-light hidden ">
                         <Link href="/">Home</Link>
                         {/* <Link href="#">About Us</Link> */}
-                        <Link href="#">Blog</Link>
+                        <Link href="blog">Blog</Link>
                         <Link href="contact-us">Contact</Link>
                     </ul>
                     <Button variant={"default"} className="leading-[1px] hidden sm:flex" onClick={handleBookCall}>Book A Call <ArrowRight/></Button>
@@ -38,7 +38,7 @@ export default function Navbar()
                         <ul className="px-[12px] flex flex-col gap-[8px] text-white bg-black/20 py-[12px] sm:hidden">
                             <li><Link href="/">Home</Link></li>
                             {/* <li><Link href="#">About Us</Link></li> */}
-                            <li><Link href="#">Blog</Link></li>
+                            <li><Link href="blog">Blog</Link></li>
                             <li><Link href="contact-us">Contact</Link></li>
                             <li>
                                 <Button variant={"default"} className="leading-[1px] flex" onClick={handleBookCall}>Book A Call <ArrowRight/></Button>
